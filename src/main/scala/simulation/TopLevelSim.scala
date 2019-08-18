@@ -1,16 +1,16 @@
-package mylib
+package simulation
 
 import spinal.core._
 import spinal.sim._
 import spinal.core.sim._
 
+import components.TopLevel
+
 import scala.util.Random
 
-
-//MyTopLevel's testbench
-object MyTopLevelSim {
+object TopLevelSim {
   def main(args: Array[String]) {
-    SimConfig.withWave.doSim(new MyTopLevel){dut =>
+    SimConfig.withWave.doSim(new TopLevel){dut =>
       //Fork a process to generate the reset and the clock on the dut
       dut.clockDomain.forkStimulus(period = 10)
 
