@@ -1,10 +1,10 @@
-package simulation
+package com.henkru.components.simulation
 
 import spinal.core._
 import spinal.sim._
 import spinal.core.sim._
 
-import components.TopLevel
+import com.henkru.components.TopLevel
 
 import scala.util.Random
 

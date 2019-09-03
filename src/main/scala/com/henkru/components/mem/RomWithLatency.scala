@@ -1,4 +1,4 @@
-package components.mem
+package com.henkru.components.mem
 
 import java.nio.file.{Files, Paths}
 import spinal.core._

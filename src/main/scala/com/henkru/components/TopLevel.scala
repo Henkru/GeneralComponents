@@ -1,4 +1,4 @@
-package components
+package com.henkru.components
 
 import spinal.core._
 import spinal.lib._

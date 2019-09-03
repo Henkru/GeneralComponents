@@ -1,10 +1,10 @@
-package simulation.mem
+package com.henkru.components.simulation.mem
 
 import spinal.core._
 import spinal.sim._
 import spinal.core.sim._
 
-import components.mem.RomWithLatency
+import com.henkru.components.mem.RomWithLatency
 
 object RomWithLatencySim {
   def main(args: Array[String]) {
