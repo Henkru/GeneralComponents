@@ -1,4 +1,4 @@
-name := "SpinalTemplateSbt"
+name := "GeneralComponents"
 
 version := "1.0"
 scalaVersion := "2.11.6"
